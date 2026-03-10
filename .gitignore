@@ -1,8 +1,19 @@
+# environment variables
+.env
 
-# Data (do not commit)
+# data files
 Data/
 *.csv
 *.parquet
 *.json
 *.zip
+
+# python cache
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
+
+# mac
 .DS_Store
