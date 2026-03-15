@@ -373,15 +373,29 @@ Tableau Visualization
 ---
 
 
-## 7. Tableau Dashboard
+## 7. Tableau Dashboards
 
-The final results are visualized using two Tableau dashboards.
+The final results are visualized using two interactive Tableau dashboards hosted on Tableau Public.
+
+You can explore the dashboards directly here:
+
+- **Dashboard 1 — Market Pattern Analysis**  
+  https://public.tableau.com/app/profile/meng.ren6414/viz/405proj/Dashboard1?publish=yes
+
+- **Dashboard 2 — Candidate Locations Opportunity Map**  
+  https://public.tableau.com/app/profile/meng.ren6414/viz/405proj/Dashboard2?publish=yes
+
+---
 
 ### Dashboard 1 — Market Pattern
 
 This dashboard explains **why Whole Foods tends to choose certain neighborhoods** by comparing tracts with existing Whole Foods stores to all other tracts.
 
+**Open the dashboard:**  
+https://public.tableau.com/app/profile/meng.ren6414/viz/405proj/Dashboard1?publish=yes
+
 **Visualizations include**
+
 - **Income vs Population Density**  
   Shows how Whole Foods tracts tend to cluster in relatively affluent areas with moderate urban density.
 
@@ -392,18 +406,23 @@ This dashboard explains **why Whole Foods tends to choose certain neighborhoods*
   Shows that Whole Foods tracts are generally associated with higher educational attainment.
 
 - **Whole Foods vs Non-Whole Foods Feature Comparison**  
-  Compares average values of major features such as income, bachelor’s degree attainment, and retail density between tracts with and without Whole Foods stores.
+  Compares average values of key features such as income, bachelor’s degree attainment, and retail density between tracts with and without Whole Foods stores.
 
-**Purpose**  
-Dashboard 1 is designed to help users understand the market pattern that the model is learning. It shows that existing Whole Foods stores are more likely to be located in tracts with stronger income, stronger education levels, and stronger commercial activity than non-Whole-Foods tracts.
+**Purpose**
+
+Dashboard 1 helps users understand the **market pattern behind existing Whole Foods locations**. It demonstrates that Whole Foods stores are more likely to be located in tracts with higher income, higher education levels, and stronger neighborhood commercial activity.
 
 ---
 
 ### Dashboard 2 — Candidate Locations for New Whole Foods Stores Opportunity Map
 
-This dashboard presents the final tract-level recommendations for potential new Whole Foods openings in Los Angeles County.
+This dashboard presents the **final tract-level recommendations** for potential new Whole Foods openings in Los Angeles County.
+
+**Open the dashboard:**  
+https://public.tableau.com/app/profile/meng.ren6414/viz/405proj/Dashboard2?publish=yes
 
 **Includes**
+
 - **Geographic Opportunity Map**  
   A tract-level choropleth map of Los Angeles County colored by similarity score, where darker green indicates stronger opportunity.
 
@@ -411,10 +430,12 @@ This dashboard presents the final tract-level recommendations for potential new 
   A ranked bar chart showing the highest-scoring candidate tracts.
 
 - **Characteristics of the Top 10 Candidates**  
-  A comparison panel that shows key variables for the highest-ranked tracts, including income, population density, and distance-based similarity measures.
+  A comparison panel displaying key variables for the highest-ranked tracts, including income, population density, and similarity metrics.
 
-**Purpose**  
-Dashboard 2 is designed to help users identify which tracts are the strongest candidates for expansion and to understand how those top candidates compare to one another.
+**Purpose**
+
+Dashboard 2 allows users to **identify the strongest candidate tracts for expansion** and compare the characteristics of the top locations suggested by the similarity model.
+
 
 ---
 
