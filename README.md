@@ -1,4 +1,3 @@
-````markdown
 # Whole Foods Location Scoring Pipeline
 
 **MSBA 405 Final Project Team 18**
