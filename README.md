@@ -43,7 +43,6 @@ The American Community Survey provides demographic and socioeconomic information
 - Median household income  
 - Population  
 - Educational attainment  
-- Population age 25+  
 
 **Derived variables**
 - **income** — average tract income (2022–2024)  
