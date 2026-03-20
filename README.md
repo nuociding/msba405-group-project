@@ -316,7 +316,7 @@ The highest-ranked tracts represent the strongest candidates for potential Whole
 
 ## 6. Data Pipeline
 
-The project pipeline consists of four stages.
+The project pipeline consists of four stages:
 
 Stage 1: Data Processing
 
