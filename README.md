@@ -319,8 +319,11 @@ The highest-ranked tracts represent the strongest candidates for potential Whole
 The project pipeline consists of four stages.
 
 Stage 1: Data Processing
+
 Stage 2: Similarity Scoring
+
 Stage 3: Snowflake Serving Layer
+
 Stage 4: Tableau Visualization
 
 ```text
