@@ -375,6 +375,8 @@ Tableau Visualization
 * create tables for analytics and visualization
 * enable dashboard queries
 
+---
+
 ### Stage 4 — Tableau Visualization
 
 **Tool**  
