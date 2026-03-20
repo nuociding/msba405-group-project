@@ -316,17 +316,22 @@ The highest-ranked tracts represent the strongest candidates for potential Whole
 
 ## 6. Data Pipeline
 
-The project pipeline consists of three stages.
+The project pipeline consists of four stages.
+
+Stage 1: Data Processing
+Stage 2: Similarity Scoring
+Stage 3: Snowflake Serving Layer
+Stage 4: Tableau Visualization
 
 ```text
 Raw Data
-↓
+↓ (stage 1)
 Feature Engineering
-↓
+↓ (stage 2)
 Similarity Scoring Model
-↓
+↓ (stage 3)
 Snowflake Serving Layer
-↓
+↓ (stage 4)
 Tableau Visualization
 ```
 
@@ -369,6 +374,18 @@ Tableau Visualization
 * upload scoring results to Snowflake
 * create tables for analytics and visualization
 * enable dashboard queries
+
+### Stage 4 — Tableau Visualization
+
+**Tool**  
+Tableau Public
+
+**Tasks**
+
+* connect Snowflake tables to Tableau
+* build interactive dashboards for analysis and presentation
+* visualize market patterns and candidate locations
+* enable filtering and user exploration of tract-level data
 
 ---
 
